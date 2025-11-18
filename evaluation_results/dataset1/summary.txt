@@ -1,0 +1,21 @@
+============================================================
+EVALUATION SUMMARY
+============================================================
+
+Checkpoint: outputs/dataset1/best.pth
+Test CSV: data/val_dataset1.csv
+Total samples: 202
+
+Mean IoU: 1.0000 ± 0.0000
+Mean Dice: 1.0000 ± 0.0000
+Median IoU: 1.0000
+Median Dice: 1.0000
+
+Per-prompt metrics:
+                      iou            dice     
+                     mean  std count mean  std
+prompt                                        
+segment drywall seam  1.0  0.0    45  1.0  0.0
+segment joint tape    1.0  0.0    58  1.0  0.0
+segment taping area   1.0  0.0    56  1.0  0.0
+segment wall joint    1.0  0.0    43  1.0  0.0
